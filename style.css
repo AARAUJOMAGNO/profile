@@ -28,10 +28,11 @@ h3, h4{
 
 body{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  /*font-weight: 300;*/
   text-align: justify;
   line-height: 1.5;
-  background-color: #d7f7f5;
+  /*background-image: url("images/back_profile.jpg")
+  /*background-color: #d7f7f5;*/
 }
 
 a {
@@ -127,6 +128,15 @@ a:hover{
 
 .footer h2{
  margin-bottom: 10px;
+}
+
+.parallax{
+  background-image: url("images/back_profile.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 960px) {
