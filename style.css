@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto:700');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #085f63;
+  text-align: center
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #05a19c;
+  text-align: center
+}
+
+h3, h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #05a19c;
+  text-align: center
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 1.5;
+  background-color: #d7f7f5;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #226b80;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+a:hover{
+  color: #e8e8e8;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 800px;
+}
+
+.link{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #226b80;
+  text-align: center
+  font-size: 30px;"
+}
+
+.link:hover{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #05a19c;
+  text-align: center
+  font-size: 30px;"
+}
+
+.btn-blue{
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.card{
+  width: 50%;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /*border: 1px solid black;*/
+  padding: 50px;
+  height: 500px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.footer{
+  width: 50%;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.footer ul{
+  text-decoration: none;
+}
+
+.footer ul li{
+  display: inline;
+  margin: 10px;
+}
+
+.footer i{
+  font-size: 40px;
+}
+
+.footer h2{
+ margin-bottom: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 75%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 50%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 30%;
+  }
+}
